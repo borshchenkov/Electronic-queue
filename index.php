@@ -146,9 +146,6 @@ textarea { width: 250px; height: 100px; border: solid 1px #CCC; color: #000000; 
 
 <h4>Запись в школьный лагерь</h4>
 
-
-
-
 ");
 if($date <= 0)
 {
