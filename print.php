@@ -124,11 +124,11 @@ textarea { width: 250px; height: 100px; border: solid 1px #CCC; color: #000000; 
 }
 else
 {
-		echo"<p align=\"center\"><font size=\"5\">Сессия устарела/не существует, либо у вас были отключены куки.</p>";
-		echo"<p align=\"center\">Настроятельно рекомендуем <b>НЕ регистрироваться</b> повторно, а уточнить</p>";
+		echo"<p align=\"center\"><font size=\"5\">Ошибка хэша</p>";
+		echo"<p align=\"center\">Настоятельно рекомендуем <b>НЕ регистрироваться</b> повторно, а уточнить</p>";
 		echo"<p align=\"center\">была ли попытка регистрации успешной обратившись по телефону: <b>8 3439 301957</b></p>";
 		echo"<p align=\"center\">или адресу электронной почты: <b><a href=\"mailto:school34-ku@rambler.ru\">school34-ku@rambler.ru</a></b></p>";
-		echo"<p align=\"center\">Зачастую проблема связана с ограничением Вашего бораузера на доступ к <a target=\"_blank\"href=\"https://ru.wikipedia.org/wiki/Cookie\">Cookie файлам.</a></b></p></font>";
+		echo"<p align=\"center\">Проблема может быть вызвана: ограничениями браузера, изменение хэша в ручную, ошибки системы регистрации</a></b></p></font>";
 }
 }
 else
