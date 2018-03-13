@@ -5,10 +5,11 @@ include 'conf.php';
 if ((Enable == 'True') or ($_SERVER['REMOTE_ADDR'] == admin_ip))
 {
 #Заносим значения в перменные из GETa
-$id=htmlspecialchars($_COOKIE['id']);
-$hash=htmlspecialchars($_COOKIE['hash']);
 settype($id,'integer');
 $personal_info = mysql_fetch_array(mysql_query("SELECT * FROM personal_info_lag WHERE id_uchasnika='".$id."'"));
+$hash=htmlspecialchars($_GET["hash"]);
+$personal_info = mysql_fetch_array(mysql_query("SELECT * FROM personal_info_lag WHERE hash='".$hash."'"));
+$id = $personal_info['id_uchasnika'];
 $date_time =  mysql_fetch_array(mysql_query("SELECT * FROM date_time_lag WHERE id_uchasnika='".$id."'"));
 if ($id > 0 and $hash == $personal_info['hash'])
 {
