@@ -138,7 +138,8 @@ textarea { width: 250px; height: 100px; border: solid 1px #CCC; color: #000000; 
 </head>
  
 <body>
- <a href=\"https://ru.wikipedia.org/wiki/%D0%91%D0%B5%D1%82%D0%B0-%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5\" target=\"_blank\"><img <img align=\"left\" src=\"./img/beta_test.jpg\"></a><a href=\"./img/tutorial.gif\" target=\"_blank\"><img align=\"right\" src=\"./img/tutorial.png\"></a>
+ <a href=\"https://ru.wikipedia.org/wiki/%D0%91%D0%B5%D1%82%D0%B0-%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5\" target=\"_blank\"><img <img align=\"left\" src=\"./img/beta_test.jpg\"></a>
+ <a href=\"./img/tutorial.gif\" target=\"_blank\"><img align=\"right\" src=\"./img/tutorial.png\"></a>
 <h3>Муниципальное автономное общеобразовательное учреждение</h3>
 
 <h3>Средняя общеобразовательная школа № 34</h3>
