@@ -27,9 +27,6 @@ Imagejpeg($pic,"./img/".$hash.".jpg"); //сохраняем рисунок в ф
 ImageDestroy($pic); //освобождаем память и закрываем изображение
 if(isset($_POST['close']))
 {
-	setcookie("hash", '', time() -30);
-	setcookie("id", '', time() -30);
-	setcookie("errors", '', time() -30);
 	echo("<script>location.href='index.php'</script>");
 }					
 echo ("
