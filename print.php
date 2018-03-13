@@ -5,8 +5,6 @@ include 'conf.php';
 if ((Enable == 'True') or ($_SERVER['REMOTE_ADDR'] == admin_ip))
 {
 #Заносим значения в перменные из GETa
-settype($id,'integer');
-$personal_info = mysql_fetch_array(mysql_query("SELECT * FROM personal_info_lag WHERE id_uchasnika='".$id."'"));
 $hash=htmlspecialchars($_GET["hash"]);
 $personal_info = mysql_fetch_array(mysql_query("SELECT * FROM personal_info_lag WHERE hash='".$hash."'"));
 $id = $personal_info['id_uchasnika'];
