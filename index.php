@@ -52,8 +52,6 @@ if(isset($_POST['submit']))
 					$id=mysql_insert_id();
 					$query = "UPDATE date_time_lag SET id_uchasnika='".mysql_insert_id()."' WHERE date='".$date."' AND time='".$time."'";
 					/* Выполняем запрос. Если произойдет ошибка - вывести ее. */
-					mysql_query($query) or die (mysql_error());					
-					echo("<script>location.href='".SITE_URL."print.php'</script>");
 					}
 	}
 	else
