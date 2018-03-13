@@ -2,10 +2,10 @@
 #Error_Reporting(E_ALL & ~E_NOTICE);
 # настройки
 define ('admin_key', 'W321w');
-define ('admin_ip', '130.255.53.57');
+define ('admin_ip', '192.168.8.223');
 define ('Enable', 'True');
 define ('DB_HOST', 'localhost');
-define ('SITE_URL', 'http://school34.k-ur.ru/reg_lag/');
+define ('SITE_URL', 'http://school34.k-ur.ru/test/');
 //Константу SITE_URL заполнять по шаблону 'http://mysite.com/' обязательно.
 define ('DB_LOGIN', 'school34');
 define ('DB_PASSWORD', 'rHfy15');
