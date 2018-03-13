@@ -49,6 +49,7 @@ if(isset($_POST['submit']))
 					$query = "INSERT INTO personal_info_lag SET fam='".mysql_real_escape_string($_POST['fam'])."', name='".mysql_real_escape_string($_POST['name'])."', lastname='".mysql_real_escape_string($_POST['lname'])."', pers_info_agree='Согласен', reglament_agree='Согласен', ip_address='".$_SERVER['REMOTE_ADDR']."', hash='".$hash."'";
 					/* Выполняем запрос. Если произойдет ошибка - вывести ее. */
 					mysql_query($query) or die (mysql_error());
+					$id=mysql_insert_id();
 					$query = "UPDATE date_time_lag SET id_uchasnika='".mysql_insert_id()."' WHERE date='".$date."' AND time='".$time."'";
 					/* Выполняем запрос. Если произойдет ошибка - вывести ее. */
 					mysql_query($query) or die (mysql_error());					
