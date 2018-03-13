@@ -13,7 +13,7 @@ $allowed_symbols = "23456789abcdegikpqsvxyz"; #alphabet without similar symbols 
 $fontsdir = 'fonts';	
 
 # CAPTCHA string length
-$length = mt_rand(5,7); # random 5 or 6 or 7
+$length = mt_rand(3,4); # random 5 or 6 or 7
 //$length = 6;
 
 # CAPTCHA image size (you do not need to change it, this parameters is optimal)
