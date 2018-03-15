@@ -202,9 +202,9 @@ textarea { width: 250px; height: 100px; border: solid 1px #CCC; color: #000000; 
 	<option value=\"2203\">22.03.2018 г</option>
 	<option value=\"2603\">26.03.2018 г</option>
 	<option value=\"2903\">29.03.2018 г</option>
-	<option value=\"0204\">02.04.2018 г</option>
-	<option value=\"0504\">05.04.2018 г</option>
-	<option value=\"0904\">09.04.2018 г</option>
+	<option value=\"204\">02.04.2018 г</option>
+	<option value=\"504\">05.04.2018 г</option>
+	<option value=\"904\">09.04.2018 г</option>
 	<option value=\"1204\">12.04.2018 г</option>
 	<option value=\"1604\">16.04.2018 г</option>
 	<option value=\"1904\">19.04.2018 г</option>
