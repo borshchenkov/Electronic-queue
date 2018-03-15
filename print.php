@@ -99,7 +99,7 @@ textarea { width: 250px; height: 100px; border: solid 1px #CCC; color: #000000; 
 
 <h3>Средняя общеобразовательная школа № 34</h3>
 
-<h4>Запись в 1й класс</h4>
+<h4>Запись в школьный лагерь</h4>
 ");
 	echo "<table align=\"center\" border=\"2\" cellpadding=\"2\" cellspacing=\"2\">\n";
 	echo "</tr><tr>\n";
