@@ -7,13 +7,13 @@ $alphabet = "0123456789abcdefghijklmnopqrstuvwxyz"; # do not change without chan
 # symbols used to draw CAPTCHA
 //$allowed_symbols = "0123456789"; #digits
 //$allowed_symbols = "23456789abcdegkmnpqsuvxyz"; #alphabet without similar symbols (o=0, 1=l, i=j, t=f)
-$allowed_symbols = "23456789abcdegikpqsvxyz"; #alphabet without similar symbols (o=0, 1=l, i=j, t=f)
+$allowed_symbols = "23456789"; #alphabet without similar symbols (o=0, 1=l, i=j, t=f)
 
 # folder with fonts
 $fontsdir = 'fonts';	
 
 # CAPTCHA string length
-$length = mt_rand(3,4); # random 5 or 6 or 7
+$length = mt_rand(4,5); # random 5 or 6 or 7
 //$length = 6;
 
 # CAPTCHA image size (you do not need to change it, this parameters is optimal)
